@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+
+#main{
+    text-align: center;
+    width: 1280px;
+    height: 720px;
+    background: black;
+}
+
+#txt,#melody,#melody2,#chord,#time{
+    font-family: '游明朝';
+    font-weight: 100;
+    margin: 0;
+    font-size: 35px;
+    color: white;
+}
+
+#txt{
+    padding-top: 325px;
+    display: inline-block;
+}
+
+#melody{
+    text-align: left;
+    padding: 220px 0 0 20px;
+}
+
+#chord{
+    padding: 0px 0 0 20px;
+    text-align: left;
+}
+
+#dot,#dot2{
+    color: white;
+    position: absolute;
+    font-size: 35px;
+    left: 120px;
+    font-weight: bold;
+}
+
+#dot{
+    top: 580px;
+}
+
+#dot2{
+    top: 640px;
+}
+
+#time{
+    font-size: 25px;
+    font-weight: 400;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
