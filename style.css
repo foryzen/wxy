@@ -9,7 +9,7 @@ body{
     background: black;
 }
 
-#txt,#melody,#melody2,#chord,#time{
+#txt,#txt2,#melody,#melody2,#chord,#time{
     font-family: '游明朝';
     font-weight: 100;
     margin: 0;
@@ -18,13 +18,20 @@ body{
 }
 
 #txt{
-    padding-top: 325px;
+    padding-top: 5px;
     display: inline-block;
+}
+
+#txt2{
+    color: gray;
+    padding-top: 300px;
+    display: inline-block;
+    font-size: 30px;
 }
 
 #melody{
     text-align: left;
-    padding: 220px 0 0 20px;
+    padding: 190px 0 0 20px;
 }
 
 #chord{

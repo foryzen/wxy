@@ -15,6 +15,7 @@ function start(){
     var a = '\
     <div id="main">\
     <h1 id="time">0:00</h1>\
+    <h1 id="txt2">前奏...</h1><br>\
     <h1 id="txt">前奏...</h1>\
     <h1 id="melody"> </h1>\
     <h1 id="dot"> </h1>\
@@ -38,6 +39,7 @@ function start(){
     var ad6 = 57700
     var ad7 = 140700-200
     var ad8 = 521300
+    var ad9 = -1000
     //ad = audio delay
 
     melody_(ad1)
@@ -285,6 +287,74 @@ function start(){
     setTimeout(sc1,ad2+240000+11290,'起こすからmorning callで')
     setTimeout(sc1,ad2+240000+14750,"I'll protect you from nightmares, baby")
     setTimeout(sc3,ad2+240000+19750,'end')
+
+    
+    setTimeout(sc6,ad9+15500,'垂れ流したテレビの音')
+    setTimeout(sc6,ad9+22000,'溜めてしまった')
+    setTimeout(sc6,ad9+24580,'洗濯物は今日こそ')
+    setTimeout(sc6,ad9+28870,'晴れてもあえて')
+    setTimeout(sc6,ad9+31910,'外には出ないでいよう')
+    setTimeout(sc6,ad9+35580,'映えないスナックと')
+    setTimeout(sc6,ad9+38120,'アルコールで乾杯をしよう')
+    setTimeout(sc6,ad9+42620,'2人酸いも甘いも')
+    setTimeout(sc6,ad9+44080,'噛み合わないとしても')
+    setTimeout(sc6,ad9+45750,'お互い寄り添うように')
+    setTimeout(sc6,ad9+47540,'少しずらしてみようよ')
+    setTimeout(sc6,ad9+49750,'君がくれた太陽')
+    setTimeout(sc6,ad9+51500,'月で隠れないよう')
+    setTimeout(sc6,ad9+53120,'輝き弛まないように歌うメロディ')
+    setTimeout(sc6,ad9+56750,'戯れるslowly flowing day')
+    setTimeout(sc6,ad9+60250,'愛してるも通り越して')
+    setTimeout(sc6,ad9+60000+3540,'似た者同士こうして')
+    setTimeout(sc6,ad9+60000+6830,'年老いるまで笑っていたいね')
+    setTimeout(sc6,ad9+60000+10410,'君がいなきゃlonely, lonely day')
+    setTimeout(sc6,ad9+60000+13700,'夢の中 fall asleep in bed')
+    setTimeout(sc6,ad9+60000+17040,'起こすからmorning callで')
+    setTimeout(sc6,ad9+60000+20500,"I'll protect you from nightmares, baby")
+    //setTimeout(sc3,ad9+60000+25500,'')
+    setTimeout(sc6,ad9+60000+38290,'脱ぎっぱなしの足跡辿ると')
+    setTimeout(sc6,ad9+60000+45000,'不意をついて後ろから抱きつくの')
+    setTimeout(sc6,ad9+60000+51660,'つい、繰り返すと忘れてしまいそうになるよ')
+    setTimeout(sc6,ad9+60000+58500,'振り返ると日々が当たり前じゃないこと')
+    setTimeout(sc6,ad9+120000+5330,'2人対の細胞')
+    setTimeout(sc6,ad9+120000+6910,'絡み合う特別を')
+    setTimeout(sc6,ad9+120000+8660,'噛みしめていきたいと思ったまどろみ抱く正午')
+    setTimeout(sc6,ad9+120000+12540,'吐息、漏れた体温')
+    setTimeout(sc6,ad9+120000+14000,'微塵も逃さないよう')
+    setTimeout(sc6,ad9+120000+16000,'頭の中刻む甘いメモリー')
+    setTimeout(sc6,ad9+120000+19700,'戯れるslowly flowing day')
+    setTimeout(sc6,ad9+120000+23040,'愛してるも通り越して')
+    setTimeout(sc6,ad9+120000+26410,'違う者同士こうして')
+    setTimeout(sc6,ad9+120000+29500,'年老いるまで笑っていたいね')
+    setTimeout(sc6,ad9+120000+33120,'君がいなきゃlonely, lonely day')
+    setTimeout(sc6,ad9+120000+36500,'夢の中 fall asleep in bed')
+    setTimeout(sc6,ad9+120000+39950,'起こすからmorning callで')
+    setTimeout(sc6,ad9+120000+43550,"I'll protect you from nightmares, baby")
+    setTimeout(sc6,ad9+120000+47250,'重ねた手はね離さないでいて')
+    setTimeout(sc6,ad9+120000+51500,'ごめん、これそばに居たいだけだね')
+    setTimeout(sc6,ad9+120000+55950,'抱えた想いはお互い様でしょ')
+    setTimeout(sc6,ad9+120000+59120,'ほら、おあいこでしょ')
+    setTimeout(sc6,ad9+180000+750,'すれ違い、間違いもあるし')
+    setTimeout(sc6,ad9+180000+5290,'筋書通り行かない打診、悲しみだって')
+    setTimeout(sc6,ad9+180000+11000,'半分こにしよう')
+    setTimeout(sc6,ad9+180000+12620,'別れじゃない希望')
+    setTimeout(sc6,ad9+180000+14250,'独りよがりにならないように、いつも')
+    setTimeout(sc6,ad9+180000+22080,'君がいなきゃ今もどこかで')
+    setTimeout(sc6,ad9+180000+25500,'動けないままの僕で')
+    setTimeout(sc6,ad9+180000+28870,'ありがとうを伝えたいのです')
+    setTimeout(sc6,ad9+180000+32330,'これからは僕が支えてくって')
+    setTimeout(sc6,ad9+180000+35660,'呆れてしまうくらいにね')
+    setTimeout(sc6,ad9+180000+39040,'愛が増していくday by day')
+    setTimeout(sc6,ad9+180000+42660,'面と向かうとどうしても')
+    setTimeout(sc6,ad9+180000+46040,'素直になれないな、ごめんね')
+    setTimeout(sc6,ad9+180000+50910,'戯れるslowly flowing day')
+    setTimeout(sc6,ad9+180000+54330,'愛してるも通り越して')
+    setTimeout(sc6,ad9+180000+57750,'似た者同士こうして')
+    setTimeout(sc6,ad9+240000+1160,'年老いるまで笑っていたいね')
+    setTimeout(sc6,ad9+240000+4500,'君がいなきゃlonely, lonely day')
+    setTimeout(sc6,ad9+240000+7790,'夢の中 fall asleep in bed')
+    setTimeout(sc6,ad9+240000+11290,'起こすからmorning callで')
+    setTimeout(sc6,ad9+240000+14750,"I'll protect you from nightmares, baby")
 }
 
 var sec = 0
@@ -387,4 +457,8 @@ function sc4(x){
 
 function sc5(x){
     return document.getElementById(x)
+}
+
+function sc6(x){
+    sc5('txt2').innerHTML = x
 }
